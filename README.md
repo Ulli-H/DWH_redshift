@@ -33,26 +33,26 @@ All data was provided by Udacity as part of the data engineer nanodegree.
 
 The database is named "sparkifydb" and consists out of the following tables:
 
-### - staging table for events data:
+#### - staging table for events data:
 A staging table for the log dataset. 
 
-### - staging table for songs data:
+#### - staging table for songs data:
 A staging table for the song dataset.
 
 
-### - fact table: songplays (records in the log data associated with song plays)  
+#### - fact table: songplays (records in the log data associated with song plays)  
 columns: *songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent*
 
-### - dimension table: users (data on app users)  
+#### - dimension table: users (data on app users)  
 columns: *user_id, first_name, last_name, gender, level*
 
-### - dimension table: songs (data on all songs in library/app)  
+#### - dimension table: songs (data on all songs in library/app)  
 columns: *song_id, title, artist_id, year, duration*
 
-### - dimension table: artists (data on all artists in library/app)  
+#### - dimension table: artists (data on all artists in library/app)  
 columns: *artist_id, name, location, latitude, longitude*
 
-### - dimension table: time (timestamps of songplays in log data brocken down in different units)  
+#### - dimension table: time (timestamps of songplays in log data brocken down in different units)  
 columns: *start_time, hour, day, week, month, year, weekday*
 
 
