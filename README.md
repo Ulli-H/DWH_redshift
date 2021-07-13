@@ -61,7 +61,7 @@ columns: *start_time, hour, day, week, month, year, weekday*
   
 1) I started out by writing the SQL statements for creating the tables and data ingestion in <code>sql_queries.py</code>
 
-2) Afterwards I created the infrastructe in redshift. 
+2) Afterwards I created the infrastructe in aws by utilzing the aws SDK for Python, boto3. 
 
 3) The <code>create_tables.py</code> contains the logic for dropping the tables (if they already exist) and creating the 2 staging tables as well as the 5 fact- and dimension tables.
   
