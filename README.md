@@ -1,6 +1,6 @@
 # DWH in AWS Redshift
 
-DataWarehousing in the cloud, with Amazon Redshift
+Building a Data Warehouse in the cloud, with Amazon Redshift
 
 
 *An Udacity Data Engineer Nanodegree project*
